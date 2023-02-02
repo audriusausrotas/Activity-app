@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left p border f1">
+        <div class="data_box border p">
+          <div>Activity: <span class="activity"></span></div>
+          <div>Type: <span class="type"></span></div>
+          <div>Participants: <span class="part"></span></div>
+          <div>Price: <span class="price"></span></div>
+          <div>Link: <span class="link"></span></div>
+          <div class="key"></div>
+          <button class="add">Add To List</button>
+        </div>
+        <button class="get">Get Data</button>
+      </div>
+      <div class="right p border f1">
+        <div class="filters">
+          <input type="text" class="input_type f1" placeholder="type" />
+          <input type="text" class="input_part f1" placeholder="participants" />
+          <input type="text" class="input_price f1" placeholder="price" />
+          <button class="filter f1">Filter</button>
+        </div>
+        <div class="activities p"></div>
+      </div>
+    </div>
+  </body>
+</html>
